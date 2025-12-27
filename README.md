@@ -26,6 +26,12 @@ This dashboard answers these questions with interactive visualizations and data-
 - Heatmap by district
 - Response time distribution
 - Drill-down by incident type
+- We can do:
+ - Calculate response times (Closed Date - Created Date).
+ - Group by borough for per capita analysis.
+ - Categorize complaint types (Noise, Parking, Sanitation, Heating, etc.).
+ - Visualize open vs closed requests.
+
 
 📈 Dashboard Features
 - KPIs: Total incidents, average response time, YOY growth
@@ -34,15 +40,22 @@ This dashboard answers these questions with interactive visualizations and data-
 - Role-Level Security (RLS): District-level access control
 
 📂 Repository Structure
+
 📂 PowerBI-CitySafety
+
  ┣ 📁 Data
  ┃ ┗ incidents_raw.csv
+ 
  ┣ 📁 SQL
  ┃ ┗ transformations.sql
+ 
  ┣ 📁 PowerBI
  ┃ ┗ CitySafety.pbix
+ 
  ┣ 📁 Documentation
+ 
  ┃ ┗ README.md
+ 
  ┗ 📁 Images
     ┗ dashboard_preview.png
 
