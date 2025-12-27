@@ -27,7 +27,7 @@ This dashboard answers these questions with interactive visualizations and data-
 - Heatmap by district
 - Response time distribution
 - Drill-down by incident type
-- We can do:
+- We will do:
  - Calculate response times (Closed Date - Created Date).
  - Group by borough for per capita analysis.
  - Categorize complaint types (Noise, Parking, Sanitation, Heating, etc.).
@@ -40,7 +40,7 @@ This dashboard answers these questions with interactive visualizations and data-
 - Forecasting: Predict incident trends for next 6 months
 - Role-Level Security (RLS): District-level access control
 
-✅ Now you have four CSV files ready to drop into your /Data folder:
+✅ Now you have four CSV files:
 - nyc_311_sample.csv
 - locations.csv
 - demographics.csv
